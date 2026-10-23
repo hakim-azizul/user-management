@@ -12,15 +12,15 @@ app.use(express.json())
 
 
 const users = [
-  {roll: 1, name: 'Aziz'},
-  {roll: 2, name: 'Bziz'},
-  {roll: 3, name: 'Cziz'},
-  {roll: 4, name: 'Dziz'},
-  {roll: 5, name: 'Eziz'},
-  {roll: 6, name: 'Fziz'},
-  {roll: 7, name: 'Gziz'},
-  {roll: 8, name: 'Hziz'},
-  {roll: 9, name: 'Iziz'}
+  {id: 1, name: 'Aziz'},
+  {id: 2, name: 'Bziz'},
+  {id: 3, name: 'Cziz'},
+  {id: 4, name: 'Dziz'},
+  {id: 5, name: 'Eziz'},
+  {id: 6, name: 'Fziz'},
+  {id: 7, name: 'Gziz'},
+  {id: 8, name: 'Hziz'},
+  {id: 9, name: 'Iziz'}
 ]
 
 app.get('/', (req, res) => {
